@@ -5,7 +5,7 @@ from datasets import load_dataset
 from trl import SFTTrainer
 import torch
 
-hf_token = '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' #사용 가능한 토큰입니다. 데이터셋에 접근하려면 필요해요!
+hf_token = 'hf_token' #허깅페이스 토큰
 max_seq_length = 2048
 dtype = None
 load_in_4bit = True
@@ -41,7 +41,7 @@ def formatting_prompts_func(examples):
         texts.append(text)
     return {"text": texts}
 
-dataset = load_dataset("byeolki/KoLlama-Empathy-Dataset", split="train")
+dataset = load_dataset("DatasetPath", split="train")
 dataset = dataset.map(formatting_prompts_func, batched=True, remove_columns=dataset.column_names)
 
 trainer = SFTTrainer(
@@ -71,7 +71,7 @@ trainer_stats = trainer.train()
 
 print('Saving...')
 model.push_to_hub_gguf(
-    "byeolki/KoLlama-Empathy",
+    "ModelPath",
     tokenizer,
     quantization_method="q8_0",
     token=hf_token
