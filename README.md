@@ -18,6 +18,8 @@ pip install -r requirements.txt
 ## 🚀 Usage
 자세한 사용법은 `tutorial.ipynb`를 참고해주세요.
 
+학습된 모델을 사용하시려면 [HuggingFace Hub](https://huggingface.co/byeolki/KoLlama-Empathy)를 방문해주세요.
+
 ## ⚖️ License
 MIT License
 
