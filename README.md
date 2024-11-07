@@ -23,7 +23,7 @@ pip install -r requirements.txt
 학습된 모델을 사용하시려면 [HuggingFace Hub](https://huggingface.co/byeolki/Llama-KoEmpathy)를 방문해주세요.
 
 ## 🙏 Credits & References
-이 프로젝트는 다음 오픈소스 프로젝트들을 기반으로 제작되었습니다:
+이 프로젝트는 다음 오픈소스 프로젝트들을 참고 및 활용했습니다:
 
 - [Llama 3.1](https://llama.meta.com/) - Meta AI의 Language Model (Llama 3.1 Community License)
   - 공감 능력을 가진 한국어 챗봇을 위해 파인튜닝한 [Llama-KoEmpathy](https://huggingface.co/byeolki/Llama-KoEmpathy) 모델을 사용합니다
