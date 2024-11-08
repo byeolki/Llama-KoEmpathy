@@ -44,8 +44,31 @@ pip install -r requirements.txt
   - 공감 능력을 가진 한국어 챗봇을 위해 파인튜닝한 [Llama-KoEmpathy](https://huggingface.co/byeolki/Llama-KoEmpathy) 모델을 사용합니다
 
 ## ⚖️ License
-이 프로젝트는 다음 라이선스를 따릅니다:
-- 프로젝트 코드: MIT License Copyright (c) 2024 Byeolki
+이 프로젝트의 코드는 MIT License에 따라 배포됩니다:
+
+MIT License
+
+Copyright (c) 2024 Byeolki
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+단, 이 프로젝트에 포함된 외부 라이브러리들은 각각의 라이센스를 따릅니다:
 - Llama 모델 및 관련 코드: Llama 3.1 Community License
 
 ## 📕 Notice
