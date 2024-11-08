@@ -48,5 +48,5 @@ pip install -r requirements.txt
 - 프로젝트 코드: MIT License Copyright (c) 2024 Byeolki
 - Llama 모델 및 관련 코드: Llama 3.1 Community License
 
-## 📢 Notice
+## 📕 Notice
 Llama 3.1 is licensed under the Llama 3.1 Community License, Copyright © Meta Platforms, Inc. All Rights Reserved.
