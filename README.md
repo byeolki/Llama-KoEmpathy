@@ -10,6 +10,21 @@ Llama-KoEmpathy는 LLaMA 기반의 한국어 감정 인식 챗봇 모델입니�
 - 감정 인식 및 공감 능력
 - LoRA를 활용한 효율적인 파인튜닝
 
+## ⚠️ License Requirements
+이 프로젝트를 사용할 때 다음 사항을 준수해야 합니다:
+- Meta의 [Acceptable Use Policy](https://llama.meta.com/llama3_1/use-policy)를 따라야 합니다
+- 월간 활성 사용자가 7억명을 초과하는 제품/서비스에 사용할 경우 Meta의 별도 라이선스가 필요합니다
+
+## ⚙️ Training Configuration
+
+- 📏 Max Sequence Length: 2048
+- 📦 Batch Size: 128
+- 🔄 Gradient Accumulation Steps: 4
+- 📈 Learning Rate: 2e-4
+- 🛠️ Optimizer: AdamW 8bit
+- 💾 Quantization: GGUF q8_0
+- 🔁 Training Epochs: 3
+
 ## ⚙️ Installation
 ```bash
 git clone https://github.com/byeolki/Llama-KoEmpathy.git
@@ -33,7 +48,5 @@ pip install -r requirements.txt
 - 프로젝트 코드: MIT License Copyright (c) 2024 Byeolki
 - Llama 모델 및 관련 코드: Llama 3.1 Community License
 
-본 프로젝트는 비상업적 목적으로만 사용할 수 있습니다.
-
 ## Notice
-"Llama 3.1 is licensed under the Llama 3.1 Community License, Copyright © Meta Platforms, Inc. All Rights Reserved."
+Llama 3.1 is licensed under the Llama 3.1 Community License, Copyright © Meta Platforms, Inc. All Rights Reserved.
