@@ -18,6 +18,7 @@ Llama-KoEmpathy는 LLaMA 기반의 한국어 감정 인식 챗봇 모델입니�
 - 월간 활성 사용자가 7억명을 초과하는 제품/서비스에 사용할 경우 Meta의 별도 라이선스가 필요합니다
   
 ## ⚙️ Installation
+[**Please installation pytorch**](https://pytorch.org/)
 ```bash
 git clone https://github.com/byeolki/Llama-KoEmpathy.git
 cd Llama-KoEmpathy
